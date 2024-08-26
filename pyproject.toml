@@ -8,6 +8,9 @@ readme = "README.md"
 keywords = ['cjk', 'hanzi', 'kanji', 'kangxi radical']
 repository = "https://github.com/patarapolw/cjkradlib"
 homepage = "https://github.com/patarapolw/cjkradlib"
+packages = [
+    { include = "cjkradlib" }
+]
 
 [tool.poetry.dependencies]
 python = ">=3.5"
